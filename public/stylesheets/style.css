@@ -6,3 +6,9 @@ body {
 a {
   color: #00B7FF;
 }
+
+.about-me {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: auto 250px;
+}
