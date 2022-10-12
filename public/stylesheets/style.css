@@ -12,3 +12,13 @@ a {
   display: grid;
   grid-template-columns: auto 250px;
 }
+
+.projects {
+  list-style: none;
+  margin: 50px;
+}
+
+.projects > li > div {
+  display: grid;
+  grid-template-columns: auto 500px;
+}
