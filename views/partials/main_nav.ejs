@@ -7,13 +7,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./">Home</a>
+            <a class="nav-link<% if (title == "Home"){ %> active<% } %>" aria-current="page" href="./">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./about">About me</a>
+            <a class="nav-link<% if (title == "About me"){ %> active<% } %>" aria-current="page" href="./about">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./projects">Projects</a>
+            <a class="nav-link<% if (title == "Projects"){ %> active<% } %>" aria-current="page" href="./projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link<% if (title == "Services"){ %> active<% } %>" aria-current="page" href="./services">Services</a>
           </li>
         </ul>
       </div>

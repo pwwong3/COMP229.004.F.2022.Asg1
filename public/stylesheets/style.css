@@ -18,7 +18,26 @@ a {
   margin: 50px;
 }
 
-.projects > li > div {
+.project {
   display: grid;
   grid-template-columns: auto 500px;
+  padding: 1em;
+}
+
+
+.services {
+  margin: 50px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  align-items: center;
+  justify-items: center;
+}
+
+.services p {
+  margin: 1em;
+  display: block;
+  text-align: center;
+  font-size: large;
 }
