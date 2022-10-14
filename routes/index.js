@@ -22,4 +22,17 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact' });
 });
 
+router.post('/contact', function(req, res, next) {
+    let contact = {
+        "last_name": req.body.last_name,
+        "first_name": req.body.first_name,
+        "contact_number": req.body.contact_number,
+        "email": req.body.email,
+        "message": req.body.message,
+    };
+    console.log(req);
+    console.table(contact);
+    res.send('<script>alert("Email sent.");window.location.href = \'/\';</script>');
+});
+
 module.exports = router;

@@ -54,3 +54,9 @@ a {
   display: grid;
   grid-template-columns: 8em auto;
 }
+
+#user_info {
+  display: grid;
+  grid-template-columns: 8em auto;
+  grid-gap: 1em;
+}
