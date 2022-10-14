@@ -41,3 +41,16 @@ a {
   text-align: center;
   font-size: large;
 }
+
+.contact {
+  margin: 50px;
+}
+
+.contact-detail {
+  list-style: none;
+}
+
+.contact-detail li {
+  display: grid;
+  grid-template-columns: 8em auto;
+}
