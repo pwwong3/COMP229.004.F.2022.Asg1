@@ -1,3 +1,9 @@
+/**********************
+ * File name: style.css
+ * Name: Pak Wah WONG
+ * StudentID: 301255741
+ * Date: 2022.10.14
+**********************/
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -23,7 +29,6 @@ a {
   grid-template-columns: auto 500px;
   padding: 1em;
 }
-
 
 .services {
   margin: 50px;
