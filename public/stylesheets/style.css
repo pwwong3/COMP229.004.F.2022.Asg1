@@ -13,6 +13,15 @@ a {
   color: #00B7FF;
 }
 
+.content {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.home {
+  margin: 50px;
+}
+
 .about-me {
   margin: 50px;
   display: grid;

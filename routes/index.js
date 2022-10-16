@@ -42,7 +42,6 @@ router.post('/contact', function(req, res, next) {
         "email": req.body.email,
         "message": req.body.message,
     };
-    console.log(req);
     console.table(contact);
     res.send('<script>alert("Email sent.");window.location.href = \'/\';</script>');
 });
