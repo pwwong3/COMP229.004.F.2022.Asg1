@@ -42,8 +42,8 @@ router.post('/contact', function(req, res, next) {
         "email": req.body.email,
         "message": req.body.message,
     };
-    console.table(contact);
-    res.send('<script>alert("Email sent.");window.location.href = \'/\';</script>');
+    console.table(contact); // Capture user contact
+    res.send('<script>alert("Email sent.");window.location.href = \'/\';</script>'); // Sent alert message and redirect user to home page
 });
 
 module.exports = router;
